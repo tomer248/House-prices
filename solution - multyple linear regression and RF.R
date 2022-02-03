@@ -78,7 +78,7 @@ backwardElimination(x, SL)
 # Predicting a new result with Random Forest Regression
 y_pred = predict(regressor, data.frame(x_test))
 
-#write.csv(y_pred,"prediction_with_R_linearegression2.csv", row.names = FALSE)
+write.csv(y_pred,"prediction_with_R_linearegression2.csv", row.names = FALSE)
 
 
 library(randomForest)
